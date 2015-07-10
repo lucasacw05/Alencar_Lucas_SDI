@@ -52,7 +52,7 @@ console.log(a);
 var b;
 b=a+3;
 console.log(a);
-console.log(b);
+console.log("The value of \"b\" is "+b);
 
 //Simple Math
 //Find our age
@@ -149,3 +149,28 @@ var nope = "false";
 var notCorrect = false
 //A string of "false" is NOT equal to a boolean of false
 //When talking about Booleans. It's about "true" or "false"
+
+
+
+
+//Simple math problem
+//Find the perimeter of a rectangle
+var side1 = 7;
+var lengh1 = 6;
+var perimeter = side1 *2 + lengh1 *2;
+console.log(perimeter);
+//Are the parenthesis needed
+
+
+//Concatenation - Combining Texts
+
+var firstName = "Kermit";
+var lastName = "The Frog";
+var fullName = firstName + " " + lastName;
+console.log(fullName+ " is the color "+kermit)
+
+//Anytime you use + with text - it changes EVERYTHING to text
+var d = "6";
+var e = "7";
+var combine = d+e;
+console.log(combine)

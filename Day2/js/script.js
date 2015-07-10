@@ -110,3 +110,42 @@ tester /=3; // tester = tester/3;
 tester *=6; // tester = tester*6;
 
 console.log(tester);
+
+//Orders of Operation
+//PEMDAS - Please Excuse My Dear Aunt Sally
+// Parenthesis, Exponents, Multiply, Divide, Add, Subtract
+
+//Find Quiz Averages
+
+var quiz1 = 87;
+var quiz2 = 100;
+var quiz3 = 70;
+
+//Add up all of them and divide by the number of them
+
+var average = (quiz1 + quiz2 + quiz3) /3
+console.log(average);
+
+//String - text for coding
+// Must have matching " or '
+// Needed to separate variable names from standard text
+
+var kermit = "light green";
+var frogName = "kermit";
+
+console.log(frogName);
+
+//Double or single quotes
+//Escape character \ blackslash
+var phrase = 'I don\'t know.\nYou never know!';
+console.log(phrase)
+
+// \n New Line Character
+
+//Booleans - true or false
+//Light switches of programming
+var yes = true;
+var nope = "false";
+var notCorrect = false
+//A string of "false" is NOT equal to a boolean of false
+//When talking about Booleans. It's about "true" or "false"

@@ -62,3 +62,51 @@ console.log(b);
 var yearBorn = 1996;
 var age = 2015-yearBorn-1;
 console.log(age);
+
+//Math!
+//+,-,*,
+
+//Find the area of a triangle
+
+var width = 8;
+
+var height = 7;
+
+var areaTriangle = width*height/2;
+console.log(areaTriangle);
+
+// Modulo - %
+// Gives you the remainder
+
+var remainder =31%3;
+console.log(remainder);
+
+//Find out if even or odd
+//Modulo by 2
+
+var evenOrOdd = 66%2;
+console.log(evenOrOdd);
+
+// 0 means even
+// 1 means odd
+
+//Assignement Operators
+/*
+= Assignment Operator - "is"
+++ Add 1 to the current value of the variable
+-- Subtract 1 to the current value of the variable
++= Addition Assignment Operator - adds the value after it to the current value
+-= Subtraction Assignment Operator - subtracts the value after it from the current value
+/= Division Operator - divides by the current value
+*= Multiplication Assignment - multiplies the following number by the current value;
+ */
+
+var tester = 5;
+tester++; // tester = tester+1;
+tester--; // tester = tester-1;
+tester +=3; // tester = tester + 3;
+tester -=6; // tester = tester - 6;
+tester /=3; // tester = tester/3;
+tester *=6; // tester = tester*6;
+
+console.log(tester);

@@ -174,3 +174,14 @@ var d = "6";
 var e = "7";
 var combine = d+e;
 console.log(combine)
+
+//Calculate the area of the rectangle
+var width2 = 4;
+var height2 = 5;
+
+//width * height = area
+
+var area2 = width2 * height2;
+
+//Result format - outputting to console
+console.log("The area of the rectangle is "+area2+" sq ft");

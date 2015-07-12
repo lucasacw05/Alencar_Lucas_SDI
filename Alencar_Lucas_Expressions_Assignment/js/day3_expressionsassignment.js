@@ -39,7 +39,7 @@ alert("During your last week, you spent a total of "+totalOnBikeTimeToGo+" minut
 console.log("During your last week, you spent a total of "+totalOnBikeTimeToGo+" minutes on going for SDI classes");
 
 //This is the average the student spent on his bike going to his classes in the last week.
-var averageOnBikeToSdiDays =  (totalOnBikeTimeToGo /= 3);
+var averageOnBikeToSdiDays =  (totalOnBikeTimeToGo / 3);
 alert("The average of minutes that you spent last week going to SDI classes was "+averageOnBikeToSdiDays+".");
 console.log("The average of minutes that you spent last week going to SDI classes was "+averageOnBikeToSdiDays+".");
 

@@ -14,15 +14,24 @@ alert("This is Lucas Alencar's Expressions Assignment. Enjoy it!");
 
 alert("Let\'s calculate how much time I could spend going to school");
 
-var tuesdays;
+//This represents the days of the week that the student go to the classes.
+//I added parseInt to turn all the prompts below on real numbers so that they will be able to be added. They are no longer text anymore.
+var timeOnTuesdays = parseInt(prompt("How long do you spend on bike to go to classes last Tuesday?"));
+console.log("You spent "+timeOnTuesdays+" minutes going to classes on last Tuesday");
 
-var thursdays;
+var timeOnThursdays = parseInt(prompt("How long do you spend on bike to go to classes last thursday?"));
+console.log("You spent "+timeOnThursdays+" minutes going to classes on last Thursday");
 
-var saturdays;
+var timeOnSaturdays = parseInt(prompt("How long do you spend on bike to go to classes last Saturday?"));
+console.log("You spent "+timeOnSaturdays+" minutes going to classes on last Saturday");
 
-var onBikeToSdiDays = [tuesdays, thursdays, saturdays];
+//This is the array to represent those days.
+var onBikeToSdiDays = [timeOnTuesdays, timeOnThursdays, timeOnSaturdays];
 
-var totalOnBikeTimeToGo = tuesdays + thursdays + saturdays;
+//This is the total time the student spent on his bike at the last week.
+var totalOnBikeTimeToGo = (timeOnTuesdays) + (timeOnThursdays) + (timeOnSaturdays);
+
+alert("During your last week, you spent a total of "+totalOnBikeTimeToGo+" minutes going for SDI classes");
 
 var averageOnBikeToSdiDays =  totalOnBikeTimeToGo /3;
 

@@ -14,7 +14,7 @@ var results = 7 + stringVar;
 console.log(results);
 
 //Number() -  Treats what is inside of () like a number, if possible!
- var castongResults = 7 + Number(stringVar);
+ var castingResults = 7 + Number(stringVar);
  console.log(castongResults);
 
  //Cast Numbers as Strings

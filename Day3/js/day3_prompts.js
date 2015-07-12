@@ -9,7 +9,7 @@ Prompts
 
 //Ask the user for their input
 var userInput = prompt("Enter your year of birth");
-console.log(userInput)
+console.log(userInput);
 
 var age = (2015-userInput)-1;
 console.log("You are "+age+" years old.");

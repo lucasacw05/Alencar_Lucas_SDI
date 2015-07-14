@@ -33,7 +33,7 @@ var whatever;    //Declaration of a variable
 whatever = 45;
 // create a storage container = value ;
 
-//Declare and defina a variable
+//Declare and define a variable
 var a =2;
 
 //Send variable value o the console so we can see it
@@ -41,7 +41,7 @@ console.log(a);
 
 //Change the value of a variable
 a=6;
-console.log(a)
+console.log(a);
 
 //Add 3 to the current value of a
 a=a+3;
@@ -90,7 +90,7 @@ console.log(evenOrOdd);
 // 0 means even
 // 1 means odd
 
-//Assignement Operators
+//Assignment Operators
 /*
 = Assignment Operator - "is"
 ++ Add 1 to the current value of the variable
@@ -138,7 +138,7 @@ console.log(frogName);
 //Double or single quotes
 //Escape character \ blackslash
 var phrase = 'I don\'t know.\nYou never know!';
-console.log(phrase)
+console.log(phrase);
 
 // \n New Line Character
 
@@ -146,7 +146,7 @@ console.log(phrase)
 //Light switches of programming
 var yes = true;
 var nope = "false";
-var notCorrect = false
+var notCorrect = false;
 //A string of "false" is NOT equal to a boolean of false
 //When talking about Booleans. It's about "true" or "false"
 

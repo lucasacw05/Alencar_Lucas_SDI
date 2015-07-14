@@ -24,7 +24,7 @@ console.log(results);
  var lineNumber = 1234;
 
  var phoneNumber = String(areaCode)+String(prefix)+String(lineNumber);
- var phoneNumber2
+ var phoneNumber2;
  console.log(phoneNumber);
 
  //ALL PROMPTS() RETURNS TEXT STRINGS!!!

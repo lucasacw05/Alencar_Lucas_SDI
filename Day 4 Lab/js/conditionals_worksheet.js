@@ -49,6 +49,63 @@ Conditionals Worksheet
   console.log("Yes, you can make it without stopping for gas!");
  }
 
-/*
 
+
+
+/*
+ Check the Login
+
+ Make sure the user has the correct username and password.
+ If the username doesn’t match then a specific message for
+ that should be printed to the console. If the password doesn’t
+ match a message should appear for that, etc. Only one error
+ message should appear.
+
+ Given:
+ Username entered by user
+ Password entered by user
+ Correct username
+ Correct password
+ Result To Print Out:
+ “Welcome, (place their username here)!” - if the username and password is correct
+ “User not found. Try again.” -if the username does not match
+ “Password does not match our records.” -if the username matches but the password does not
  */
+
+
+ //This is the username
+ var userName = "lovesdi";
+
+ //This is the password
+ var password = "lovesomuch";
+
+ //This is the first question. It asks about the username of the person.
+ var question1;
+
+  question1 = prompt("Welcome, place your username here!");
+  console.log("Welcome, place your username here!");
+
+ //This is the second question. It asks about the password of the person.
+ var question2;
+
+/*This is the application of the conditionals IF and ELSE to correctly answer the person when he or she puts the wrong or
+  right username and the wrong or right password.
+ */
+
+ if (question1 === userName){
+  console.log("Now, type your password");
+  question2 = prompt("Now, type your password");
+ } else {
+  console.log("User not found. Try again.");
+  alert("User not found. Try again");
+ }
+
+  if(question2 === password){
+  console.log("Congratulations, you just logged in!");
+  alert("Congratulations, you just logged in!");
+ } else {
+  console.log("Password does not match out records.");
+  alert("Password does not match out records.");
+ }
+
+

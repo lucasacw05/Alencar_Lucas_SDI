@@ -170,7 +170,7 @@ Conditionals Worksheet
  alert("This is the 3rd Problem.");
 
  movieArray[2] = prompt("What hour do you plan to go to the movies? (Hour between 00 and 23)");
- 
+
  if(movieArray[2]>=15 && movieArray[2]<=19){
    console.log("No matter your age, you are eligible to get the discounted ticket in the hour you plan to go.");
    alert("No matter your age, you are eligible to get the discounted ticket in the hour you plan to go.");

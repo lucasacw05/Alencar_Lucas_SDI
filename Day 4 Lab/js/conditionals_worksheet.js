@@ -82,7 +82,7 @@ Conditionals Worksheet
  //This is the first question. It asks about the username of the person.
  var question1;
 
-  question1 = prompt("Welcome, place your username here!");
+  /* <<< DELETE question1 = prompt("Welcome, place your username here!");
   console.log("Welcome, place your username here!");
 
  //This is the second question. It asks about the password of the person.
@@ -97,14 +97,16 @@ Conditionals Worksheet
 /*If the answer is different than the userName, an alert is going to pop up saying that the user was not found and
  anything else is going to pop up in the screen.
  */
- if(question1 != userName){
+
+
+ /*if(question1 != userName){
   console.log("User not found. Try again.");
   alert("User not found. Try again");
  }
 
  /*I used else to nest a lot of IF conditions because I wanted to be really accurate with the message the user is going
-   to get back if he do something wrong.
-  */
+   to get back if he do something wrong.  ---- - -comment
+
  else {
 
   //If the question 1 is equal to the userName, you will type your password.
@@ -119,8 +121,8 @@ Conditionals Worksheet
    alert("Password does not match our records");
   }
  /*By last, if you put the correct username and password, you will receive the following message: "Congratulations, you just logged in!"
+---- comment
 
-  */
   if ((question1 === userName) && (question2 === password)) {
    console.log("Congratulations, you just logged in!");
    alert("Congratulations, you just logged in!");
@@ -128,6 +130,7 @@ Conditionals Worksheet
 
  }
 
+*/
 
  /*Movie Ticket Price
 
@@ -143,6 +146,52 @@ Conditionals Worksheet
  Result To Print Out:
      “The ticket price is X”
      */
+
+
+ var movieArray;
+
+ var standardTicketPrice;
+
+ var discountedTicketPrice;
+
+ var hour;
+
+ standardTicketPrice = 12;
+
+ discountedTicketPrice = 7;
+
+
+
+ movieArray = [standardTicketPrice, discountedTicketPrice, hour];
+
+ var age;
+
+ hour = prompt("What hour do you plan to go to the movies? (Hour between 00 and 23)");
+
+ if(hour>=15 && hour<=19){
+   console.log("No matter your age, you are eligible to get the discounted ticket in the hour you plan to go.");
+   alert("No matter your age, you are eligible to get the discounted ticket in the hour you plan to go.");
+  }
+
+
+   else {
+  age = prompt("How old are you");
+
+  if ((age <= 7) || (age >= 55)) {
+   console.log("You are eligible to get the discounted price of $7.00 at any hour.");
+   alert("You are eligible to get the discounted price of $7.00 at any hour")
+  }
+
+    else{
+   console.log("You are not eligible to get the discounted price tickets and must pay the standard amout of $"+standardTicketPrice+" for it.");
+   alert("You are not eligible to get the discounted price tickets and must pay the standard amout of $"+standardTicketPrice+" for it.");
+  }
+
+ }
+
+
+
+
 
 
 

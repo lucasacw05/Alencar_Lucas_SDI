@@ -22,12 +22,23 @@ Conditionals Worksheet
   Result To Print Out:
   “Yes, you can make it without stopping for gas!” or “You only have X gallons of gas in your tank, better get gas now while you can!”
 */
- 
+
+//This is the gas efficiency of miles the car is able to do per gallon of gas
  var gasEfficiency = 15;
+
+ //This is the gauge reading of the gas tank in % at the moment the problem appears.
  var gaugeReadingGasTank = 75 / 100;
+
+ //This is the tank capacity of the car in gallons.
  var tankCapacity = 20;
+
+ //This is the distance in miles to the next station.
  var distanceNextGasStation = 200;
+
+ //This is the distance the car will be able to do without getting more gas.
  var distanceNotGettingGas = gasEfficiency * (gaugeReadingGasTank * tankCapacity);
+
+ //This is the quantity of gallons of gas that the car has at the beginning of the problem.
  var gallonsInsideTank = tankCapacity * gaugeReadingGasTank;
 
      if(distanceNotGettingGas<distanceNextGasStation){
@@ -38,3 +49,6 @@ Conditionals Worksheet
   console.log("Yes, you can make it without stopping for gas!");
  }
 
+/*
+
+ */

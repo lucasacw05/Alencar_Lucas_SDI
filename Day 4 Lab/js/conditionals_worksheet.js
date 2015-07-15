@@ -88,24 +88,46 @@ Conditionals Worksheet
  //This is the second question. It asks about the password of the person.
  var question2;
 
+
 /*This is the application of the conditionals IF and ELSE to correctly answer the person when he or she puts the wrong or
   right username and the wrong or right password.
  */
 
- if (question1 === userName){
-  console.log("Now, type your password");
-  question2 = prompt("Now, type your password");
- } else {
+
+/*If the answer is different than the userName, an alert is going to pop up saying that the user was not found and
+ anything else is going to pop up in the screen.
+ */
+ if(question1 != userName){
   console.log("User not found. Try again.");
   alert("User not found. Try again");
  }
 
-  if(question2 === password){
-  console.log("Congratulations, you just logged in!");
-  alert("Congratulations, you just logged in!");
- } else {
-  console.log("Password does not match out records.");
-  alert("Password does not match out records.");
+ /*I used else to nest a lot of IF conditions because I wanted to be really accurate with the message the user is going
+   to get back if he do something wrong.
+  */
+ else {
+
+  //If the question 1 is equal to the userName, you will type your password.
+  if (question1 === userName) {
+   console.log("Now, type your password");
+   question2 = prompt("Now, type your password");
+  }
+
+  //If the question 2 is different than the password a different message will appear.
+  if (question2 != password) {
+   console.log("Password does not match our records");
+   alert("Password does not match our records");
+  }
+ /*By last, if you put the correct username and password, you will receive the following message: "Congratulations, you just logged in!"
+ 
+  */
+  if ((question1 === userName) && (question2 === password)) {
+   console.log("Congratulations, you just logged in!");
+   alert("Congratulations, you just logged in!");
+  }
+
  }
+
+
 
 

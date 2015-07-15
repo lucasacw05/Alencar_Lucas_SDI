@@ -22,5 +22,19 @@ Conditionals Worksheet
   Result To Print Out:
   “Yes, you can make it without stopping for gas!” or “You only have X gallons of gas in your tank, better get gas now while you can!”
 */
+ 
+ var gasEfficiency = 15;
+ var gaugeReadingGasTank = 75 / 100;
+ var tankCapacity = 20;
+ var distanceNextGasStation = 200;
+ var distanceNotGettingGas = gasEfficiency * (gaugeReadingGasTank * tankCapacity);
+ var gallonsInsideTank = tankCapacity * gaugeReadingGasTank;
 
+     if(distanceNotGettingGas<distanceNextGasStation){
+  console.log("You only have "+gallonsInsideTank+" gallons of gas in your tank, better get gas now while you can!");
+      }
+
+     else {
+  console.log("Yes, you can make it without stopping for gas!");
+ }
 

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2355a16b-6c20-4a11-b41d-e7e80cd9b1cf" name="Default" comment="" />
+    <list default="true" id="2355a16b-6c20-4a11-b41d-e7e80cd9b1cf" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day4/js/day4_ternary.js" afterPath="$PROJECT_DIR$/Day4/js/day4_ternary.js" />
+    </list>
     <ignored path="Alencar_Lucas_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +26,8 @@
       <file leaf-file-name="day4_ternary.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day4/js/day4_ternary.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16304348">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.7133152">
+              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -83,8 +85,8 @@
         <option value="$PROJECT_DIR$/Day4/js/day4_conditionals.js" />
         <option value="$PROJECT_DIR$/Day4/day4_logical.html" />
         <option value="$PROJECT_DIR$/Day4/js/day4_logical.js" />
-        <option value="$PROJECT_DIR$/Day4/js/day4_ternary.js" />
         <option value="$PROJECT_DIR$/Day4/day4_ternary.html" />
+        <option value="$PROJECT_DIR$/Day4/js/day4_ternary.js" />
       </list>
     </option>
   </component>
@@ -548,8 +550,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day4/js/day4_ternary.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16304348">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.7133152">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
           <folding />
         </state>
       </provider>

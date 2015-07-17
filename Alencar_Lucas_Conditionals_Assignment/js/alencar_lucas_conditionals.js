@@ -42,7 +42,7 @@ Conditionals Assignment
  var ageStartedBuyingCds;
 
  var personStatistics;
- 
+
 
  personStatistics = [personName, personLastName, personAge];
 
@@ -77,7 +77,7 @@ Conditionals Assignment
 
  personAge=prompt("How old are you?");
 
- timeBuyingCds =  (personAge-ageStartedBuyingCds);
+
 
 
  if (personAge<=17){
@@ -93,7 +93,22 @@ Conditionals Assignment
 
  ageStartedBuyingCds=prompt("What was you age when you started buying CDs?");
 
+ timeBuyingCds =  (personAge-ageStartedBuyingCds);
+
  alert("Then you have been buying CDs for incredible "+timeBuyingCds+" years!");
+
+ alert("Let's make things more interesting...");
+
+ cdprice=prompt("How much do you usually pay per CD since you were "+ageStartedBuyingCds+" and started buying it?");
+
+ cdsPerWeek=prompt("And how many do you usually buy per week?");
+
+ if ((cdsPerWeek===isNaN) || (cdsPerWeek==="") ){
+  console.log("Please, answer again making sure to put only numbers.");
+  alert("Please, answer again making sure to put only numbers.");
+ } else {
+  alert("Great! That means that you buy an average of CDS PER MONTH AND CDS PER YEAR")
+ }
 
 
 

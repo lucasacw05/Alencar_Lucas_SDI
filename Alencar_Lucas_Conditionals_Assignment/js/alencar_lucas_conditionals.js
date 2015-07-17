@@ -26,7 +26,15 @@ Conditionals Assignment
 
  var timeBuyingCds;
 
- var cdInfo;
+ var ageStartedBuyingCds;
+
+ var cdsPerMonth;
+
+ var cdsPerYear;
+
+ var cdsCollection;
+
+ var cdStatistics;
 
 
 
@@ -39,14 +47,25 @@ Conditionals Assignment
 
  var personAge;
 
- var ageStartedBuyingCds;
-
  var personStatistics;
 
+ //money
+
+ var moneyStatistics;
+
+ var moneySpentPerMonth;
+
+ var moneySpentPerYear;
+
+ var painfulPart;
+
+ var moneySpentOnCollection;
+
+ moneyStatistics = [moneySpentPerMonth, moneySpentPerYear, moneySpentOnCollection];
 
  personStatistics = [personName, personLastName, personAge];
 
- cdInfo = [cdprice, cdsPerWeek, timeBuyingCds, ageStartedBuyingCds];
+ cdStatistics = [cdprice, cdsPerWeek, timeBuyingCds, ageStartedBuyingCds, cdsPerMonth, cdsPerYear, cdsCollection];
 
 
  //This first part is an introduction part to not to make the calculator so boring.
@@ -99,15 +118,37 @@ Conditionals Assignment
 
  alert("Let's make things more interesting...");
 
+
+
  cdprice=prompt("How much do you usually pay per CD since you were "+ageStartedBuyingCds+" and started buying it?");
 
  cdsPerWeek=prompt("And how many do you usually buy per week?");
+
+
+ cdsPerMonth = cdsPerWeek * 4;
+
+ cdsPerYear = cdsPerMonth * 12;
+
+ cdsCollection = cdsPerYear * timeBuyingCds;
+
 
  if ((cdsPerWeek===isNaN) || (cdsPerWeek==="") ){
   console.log("Please, answer again making sure to put only numbers.");
   alert("Please, answer again making sure to put only numbers.");
  } else {
-  alert("Great! That means that you buy an average of CDS PER MONTH AND CDS PER YEAR")
+  alert("Great! That means that you buy an average of "+ cdsPerMonth+" CDs per month and "+cdsPerYear+" CDs per year, making your collection to be around "+cdsCollection+" CDs today!!");
+ }
+
+ moneySpentOnCollection = cdsCollection * cdprice;
+
+ painfulPart=prompt("Now it's time for the painful part, are you prepared? (Answer yes or no.)");
+
+ if (painfulPart.toLowerCase()==="yes"){
+  alert("Through all these "+timeBuyingCds+" years buying CDs, you spent an entire amount of $"+moneySpentOnCollection+" dollars. ")
+ } else if ((painfulPart.toLowerCase()==="no") || (painfulPart==="")){
+  alert("It looks you are not brave enough...")
+ } else {
+  alert("You'd better remain in silent... You could have had a heart attack!");
  }
 
 

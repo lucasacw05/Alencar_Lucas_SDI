@@ -94,12 +94,10 @@ Conditionals Assignment
  personName = (personName==="")? prompt("This is not a person's name.\nWhat is your name?") :personName;
 
  personLastName=prompt("And your last name?");
- personLastName= (personLastName==="")? prompt("This is not a person's name.\nWhat is your name?");
+ personLastName= (personLastName==="")? prompt("This is not a person's last name.\nWhat is your last name?") :personLastName;
 
  personAge=prompt("How old are you?");
- personAge = (personAge==="")? prompt("This is no");
-
-
+ personAge = (personAge==="")? prompt("This is not a number\nHow old are you?") :personAge;
 
 
  if (personAge<=17){
@@ -115,8 +113,8 @@ Conditionals Assignment
 
 
  else if (personAge>=26 || personAge>26){
-  console.log("I know you lived back in the 80's! I even think that you enjoyed the LPs era, but let's calculate your CDs!!");
-  alert("I know you lived back in the 80's! I even think that you enjoyed the LPs era, but let's calculate your CDs!!");
+  console.log("I know you lived back in the 80's! I also think that you enjoyed the LPs era, but let's calculate your CDs!!");
+  alert("I know you lived back in the 80's! I also think that you enjoyed the LPs era, but let's calculate your CDs!!");
  }
 
  ageStartedBuyingCds=prompt("What was you age when you started buying CDs?");
@@ -160,12 +158,12 @@ console.log("Let's make things more interesting...");
   console.log("Through all these "+timeBuyingCds+" years buying CDs, you spent an entire amount of $"+moneySpentOnCollection+" dollars. ");
  }
 
- else if ((painfulPart.toLowerCase()==="no") || (painfulPart==="")){
+ else if (painfulPart.toLowerCase()==="no"){
   alert("It looks you are not brave enough...");
   console.log("It looks you are not brave enough...");
  }
 
- else {
+ else if ((painfulPart==="")){
   alert("You'd better remain in silent... You could have had a heart attack!");
   console.log("You'd better remain in silent... You could have had a heart attack!");
  }

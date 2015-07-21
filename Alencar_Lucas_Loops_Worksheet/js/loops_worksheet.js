@@ -69,7 +69,11 @@ if(firstQuestion.toLowerCase() === "yes"){
  }
 
  else if(firstQuestion.toLowerCase() === "yes"){
-  moneyInWallet=prompt("Great, how much money do you have in your wallet? The cost of each pizza is $4");
+  pizzasOrdered=prompt("How many pizzas would you like to order to stock for the zombie apocalypse?");
+  if(pizzasOrdered > 30){
+   alert("Great! It looks like you really want to survive!");
+  }
+   moneyInWallet=prompt("Great, how much money do you have in your wallet? The cost of each pizza is $4");
   if(moneyInWallet >(pizzasOrdered * pizzaPrice)){
    alert("It looks like you have enough money my friend, you are good to go.");
    alert("Here, take your order.");

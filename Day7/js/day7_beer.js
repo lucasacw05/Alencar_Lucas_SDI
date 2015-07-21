@@ -11,6 +11,21 @@ Section 00
 
  //Create a loop that will write out the lyrics for the 99 bottles of beer song.
 
+
+var numBeers = prompt("How many beers are on your wall?");
+//validate user prompts
+ while(isNaN(numBeers) || numBeers===""){
+
+  if(isNaN(numBeers)){
+   numBeers=prompt("Please only type in numbers.\nHow many beers are on your wall?");
+  }else {
+   numBeers=prompt("Please do not leave blank.\nHow many beers are on your wall?");
+  }
+ }
+
+ //Cast the variable as a number
+ numBeers=Number(numBeers);
+
  //for(initialization; condition; increment of change){}
  for(var i=99; i>0; i--){
     //Verify that the loop works

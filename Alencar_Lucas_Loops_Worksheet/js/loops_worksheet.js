@@ -19,11 +19,22 @@ Loops Worksheet
  var moneyInWallet;
  var firstQuestion;
 
- firstQuestion=prompt("Are you the person who wants to order pizzas for the zombie apocalypse, right?");
+ firstQuestion=prompt("You are the person who wants to order pizzas for the zombie apocalypse, right?");
 if(firstQuestion.toLowerCase() === "yes"){
-
+ alert("Good!");
  pizzasOrdered=prompt("How many pizzas would you like to order to stock for the zombie apocalypse?");
  if(pizzasOrdered > 30){
+
+ else {
+  for(pizzasOrdered; pizzasOrdered < 31; pizzasOrdered++)
+  {
+   alert("I still think that this is not enough... We only accept orders of 30 or more pizzas. We help you survive, not to have fun. Let's help you survive adding 1 pizza per time to your order until you have at least 30. Be calm, imagine how many orders we do have. Until now you have " + pizzasOrdered + " pizzas.");
+   if (pizzasOrdered === 30) {
+    alert("I think that now it is enough.");
+    break;
+   }
+  }}
+
   alert("Great! It looks like you really want to survive!");
   moneyInWallet=prompt("Great, how much money do you have in your wallet? The cost of each pizza is $4");
   if(moneyInWallet >(pizzasOrdered * pizzaPrice)){

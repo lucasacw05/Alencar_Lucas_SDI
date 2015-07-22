@@ -13,10 +13,12 @@ Array Loop Worksheet
  var whoAreThey = [];
  var questionTentation;
  var firstPeopleToShare;
- var totalShared;
+ var totalShared = 0;
+ var days;
+
 
  do{
- var band=prompt("What is the name of your Rockband? Do not leave the space blank.");
+ var band=prompt("What is the name of your Solo Career Band? Do not leave the space blank.");
  } while(band===""){}
 
  do{
@@ -29,24 +31,33 @@ for(var i = 0; i < numRockBand; i++) {
 }
  console.log(whoAreThey);
 
+
+
+
  questionTentation=prompt("Would you like to share your music with thousands of people or at least know how many people your music could reach by sharing it and asking for people to do the same?");
-if(questionTentation.toLowerCase()==="yes"){
- firstPeopleToShare=prompt("Great! How many people do you pretend to make each person of your band including you to share the music with per day?");
+ if(questionTentation.toLowerCase()==="yes"){
 
 
+  firstPeopleToShare=parseInt(prompt("Great! How many people do you pretend to make each person of your band including you to share the music with per day?"));
+
+ days=parseInt(prompt("For how many days do you pretend to calculate the progress of the perfect share?"));
 
 
+ for (var j=1; j<=days; j++) {
+  prevShared = totalShared;
+  totalShared = numRockBand*=firstPeopleToShare;
+  totalShared += prevShared;
+  console.log(totalShared);
+
+  alert("You will be reaching day "+j+" sharing it with the amount of "+totalShared+" people reached.");
 
 
+ }
+
+                                           }
 
 
-
-
-}
-
-
-
-else{
+ else{
  alert("Never mind, you will never be famous.")
 }
 

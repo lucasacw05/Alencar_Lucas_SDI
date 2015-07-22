@@ -36,45 +36,57 @@ Loops Worksheet
 
 
  firstName=prompt("Let's create your profile for this brand new social media!\nInsert here your first name:");
+ console.log("Let's create your profile for this brand new social media!\nInsert here your first name:");
 
  while(!(isNaN(firstName)) || firstName===""){
   firstName = prompt("Please, answer your with your first name. No blank spaces or numbers will be accepted.");
+  console.log("Please, answer your with your first name. No blank spaces or numbers will be accepted.");
  }
 
  do{
-  lastName=prompt("Now, it is time for your last name. Insert it with no blank spaces or numbers.:");
+  lastName=prompt("Now, it is time for your last name. Insert it with no blank spaces or numbers:");
+  console.log("Now, it is time for your last name. Insert it with no blank spaces or numbers:");
  } while(!(isNaN(lastName)) || lastName==="");
 
  do{
   dayOfBirth=prompt("In what day of the month you were born?");
+  console.log("In what day of the month you were born?");
  } while((isNaN(dayOfBirth)) || dayOfBirth==="" || dayOfBirth>31);
 
 
 while((isNaN(monthOfBirth)) || monthOfBirth==="" || monthOfBirth>12){
  monthOfBirth=prompt("What is your month of birth?");
+ console.log("What is your month of birth?");
 }
 
  yearOfBirth=prompt("Take it easy, we are almost at the end.\n In what year you were born?");
+ console.log("Take it easy, we are almost at the end.\n In what year you were born?");
  while(isNaN(yearOfBirth) || yearOfBirth===""){
   yearOfBirth=prompt("Please, don't leave blank.\nType only numbers.");
+  console.log("Please, don't leave blank.\nType only numbers.");
  }
 
  birthDayThisYear=prompt("Did you already celebrate birthday this year?");
+ console.log("Did you already celebrate birthday this year?");
  if(birthDayThisYear.toLowerCase()==="yes"){
   age=2015-yearOfBirth
  } else{
   age=2014-yearOfBirth
  }
 
- confirm("Ready to see your profile?");
 
+ confirm("Ready to see your profile?");
+ console.log("Ready to see your profile?");
 
  do {
   userName = prompt("By last, what username would you like to use?");
+  console.log("By last, what username would you like to use?");
  } while (!(isNaN(userName)) || userName==="");
 
  for(var i=10; i>=1; i--){
   alert("You will see it in "+i);
+  console.log("ou will see it in "+i);
  }
 
  alert("This is your brand new profile!\nYour name is "+firstName+" "+lastName+"\nYou were born in "+monthOfBirth+"/"+dayOfBirth+"/"+yearOfBirth+", being "+age+" years old and your new username is "+userName+".");
+ console.log("This is your brand new profile!\nYour name is "+firstName+" "+lastName+"\nYou were born in "+monthOfBirth+"/"+dayOfBirth+"/"+yearOfBirth+", being "+age+" years old and your new username is "+userName+".");

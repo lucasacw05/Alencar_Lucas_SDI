@@ -10,7 +10,7 @@ Looping over Arrays
 
  //Create an Array of Scooby Doo Characters
 
- var scoobyGang = ["Scooby", "Shaggy", "Velma", "Daphne"];
+ var scoobyGang = ["Velma", "Scooby", "Shaggy", "Daphne"];
 
  //Push an array
  scoobyGang.push("Fred");
@@ -23,7 +23,15 @@ Looping over Arrays
  console.log(scoobyGang.length);
 
  for(var i = 0; i<scoobyGang.length; i++){
-  console.log("You solved the case "+scoobyGang[i]);
+  //Scooby and Shaggy to get a Scooby snack
+
+  if(scoobyGang[i]==="Scooby" || scoobyGang[i]==="Shaggy"){
+   console.log("Good Job "+scoobyGang[i]+". You get a scooby snack!");
+  } else{
+   console.log("You solved the case "+scoobyGang[i]);
+  }
+
+
  }
 
 

@@ -4,7 +4,6 @@
     <list default="true" id="2355a16b-6c20-4a11-b41d-e7e80cd9b1cf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 6/js/Day6_Math.js" afterPath="$PROJECT_DIR$/Day 6/js/Day6_Math.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 6/js/Day6_WhileLoops.js" afterPath="$PROJECT_DIR$/Day 6/js/Day6_WhileLoops.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day8/js/day8_functions.js" afterPath="$PROJECT_DIR$/Day8/js/day8_functions.js" />
     </list>
     <ignored path="Alencar_Lucas_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,6 +24,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="day8_scope.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day8/js/day8_scope.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.16925247">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day8_scope.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day8/day8_scope.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.125">
+              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="day8_functions.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day8/day8_functions.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -35,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day8_functions.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="day8_functions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day8/js/day8_functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16925247">
+            <state vertical-scroll-proportion="-4.4444447">
               <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
               <folding />
             </state>
@@ -51,8 +70,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="Html5" />
         <option value="SDItemplate" />
+        <option value="Html5" />
       </list>
     </option>
   </component>
@@ -62,8 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day2 Lab/iexpression.html" />
-        <option value="$PROJECT_DIR$/Day2 Lab/iexpressions.js" />
         <option value="$PROJECT_DIR$/Day2 Lab/iexpressions.html" />
         <option value="$PROJECT_DIR$/Day2 Lab/js/iexpressions.js" />
         <option value="$PROJECT_DIR$/Day3/day3_arrays.html" />
@@ -113,6 +130,8 @@
         <option value="$PROJECT_DIR$/Alencar_Lucas_Loops_Worksheet/js/loops_worksheet2.js" />
         <option value="$PROJECT_DIR$/Day8/day8_functions.html" />
         <option value="$PROJECT_DIR$/Day8/js/day8_functions.js" />
+        <option value="$PROJECT_DIR$/Day8/js/day8_scope.js" />
+        <option value="$PROJECT_DIR$/Day8/day8_scope.html" />
       </list>
     </option>
   </component>
@@ -408,20 +427,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day1/firstFile.rtf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day2 Lab/iexpressions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day2/Day2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21067415">
@@ -753,6 +758,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day8/js/day8_functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4444447">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Day8/day8_functions.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.75">
@@ -761,7 +774,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day8/js/day8_functions.js">
+    <entry file="file://$PROJECT_DIR$/Day8/day8_scope.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day8/js/day8_scope.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16925247">
           <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />

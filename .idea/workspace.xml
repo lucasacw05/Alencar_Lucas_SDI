@@ -4,6 +4,7 @@
     <list default="true" id="2355a16b-6c20-4a11-b41d-e7e80cd9b1cf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 6/js/Day6_Math.js" afterPath="$PROJECT_DIR$/Day 6/js/Day6_Math.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 6/js/Day6_WhileLoops.js" afterPath="$PROJECT_DIR$/Day 6/js/Day6_WhileLoops.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day8/js/day8_argument_and_parameters.js" afterPath="$PROJECT_DIR$/Day8/js/day8_argument_and_parameters.js" />
     </list>
     <ignored path="Alencar_Lucas_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +28,8 @@
       <file leaf-file-name="day8_argument_and_parameters.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day8/js/day8_argument_and_parameters.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10578279">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.42313117">
+              <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -39,46 +40,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-3.125">
               <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="day8_scope.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day8/js/day8_scope.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-31.666666">
-              <caret line="57" column="60" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="day8_scope.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day8/day8_scope.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.125">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="day8_functions.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day8/day8_functions.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="day8_functions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day8/js/day8_functions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.4444447">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -150,8 +111,8 @@
         <option value="$PROJECT_DIR$/Day8/day8_scope.html" />
         <option value="$PROJECT_DIR$/Day8/js/day8_scope.js" />
         <option value="$PROJECT_DIR$/Day8/js/day8_argument_and_parameters.html" />
-        <option value="$PROJECT_DIR$/Day8/js/day8_argument_and_parameters.js" />
         <option value="$PROJECT_DIR$/Day8/day8_argument_and_parameters.html" />
+        <option value="$PROJECT_DIR$/Day8/js/day8_argument_and_parameters.js" />
       </list>
     </option>
   </component>
@@ -790,7 +751,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day8/js/day8_scope.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.666666">
+        <state vertical-scroll-proportion="1.2059238">
           <caret line="57" column="60" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
           <folding />
         </state>
@@ -806,8 +767,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day8/js/day8_argument_and_parameters.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10578279">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.42313117">
+          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
           <folding />
         </state>
       </provider>

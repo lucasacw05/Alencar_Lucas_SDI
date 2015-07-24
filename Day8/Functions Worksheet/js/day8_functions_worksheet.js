@@ -53,15 +53,18 @@ var result = calcCirc(radiusC);
   */
 
 
- function killAnimal(){
+ var victimWeight = prompt("What is the Victim's weight");
 
-  var victimsWeight = prompt("What is the Victim's weight");
+ function killAnimal(victimWeight){
+
   var beeStings = 8.666666667;
 
-  var stingsToKill = beeStings*victimsWeight;
+  var stingsToKill = beeStings*victimWeight;
 
   return stingsToKill
 
  }
 
- var result2 = killAnimal(victimsWeight);
+ var result2 = killAnimal(victimWeight);
+
+ console.log("It would take "+result2+" bee stings to kill an animal of "+victimWeight+" pounds of weight.");

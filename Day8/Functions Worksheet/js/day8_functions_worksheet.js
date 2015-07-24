@@ -19,20 +19,25 @@ Functions Worksheet Activity
  Result to print to the console:
      “The circumference of the circle is X”;
 */
-
+//This is to ask the user for an input of the radius of the circumference he or she wants to calculate.
  var radiusC = prompt("What is the radius of the circumference?");
 
+
+ //This is the function to calculate the circumference
  function calcCirc(radiusC){
 
+  //This is the variable to calculate the circumference.
   var circumference = 2*Math.PI*radiusC;
 
+  //This is to return the value of the circumference to outside the function.
   return circumference;
  }
 
-// var results1;
 
-var result = calcCirc(radiusC);
+ //This is to return the result outside the function
+ var result = calcCirc(radiusC);
 
+ //This is the console update to show what the function calculated.
  console.log("The circumference of the circle with the radius of "+radiusC+" is "+ result);
 
 
@@ -52,19 +57,24 @@ var result = calcCirc(radiusC);
 
   */
 
-
+//The variable victimWeight represents the victim's weight. There is also a prompt to the user put it.
  var victimWeight = prompt("What is the Victim's weight");
 
+ //This is the function to calculate how many stings and animal would have to have to die.
  function killAnimal(victimWeight){
 
+  //This is the variable that corresponds to the number of stings per pound to kill an animal.
   var beeStings = 8.666666667;
 
+  //This is the total of bee stings to kill an animal.
   var stingsToKill = beeStings*victimWeight;
 
+  //This is to return the result outside the function
   return stingsToKill
 
  }
-
+//This is the result stored in the result2 variable.
  var result2 = killAnimal(victimWeight);
 
+ //This is to print the results to the console.
  console.log("It would take "+result2+" bee stings to kill an animal of "+victimWeight+" pounds of weight.");

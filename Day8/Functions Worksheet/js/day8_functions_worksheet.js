@@ -20,14 +20,48 @@ Functions Worksheet Activity
      “The circumference of the circle is X”;
 */
 
- function calcCirc(){
+ var radiusC = prompt("What is the radius of the circumference?");
 
-  var r;
-  var circumference = 2*Math.PI*r;
+ function calcCirc(radiusC){
 
-  
-  console.log("The circumference of the circle with the radius of "+r+" is "+circumference);
+  var circumference = 2*Math.PI*radiusC;
+
+  return circumference;
+ }
+
+// var results1;
+
+var result = calcCirc(radiusC);
+
+ console.log("The circumference of the circle with the radius of "+radiusC+" is "+ result);
+
+
+ /*
+  Stung!
+
+  It takes 8.666666667 bee stings per pound to kill an animal. Calculate how many bee stings are needed to kill an animal in a function
+
+  Given:
+  Victim’s weight (in pounds)
+  Parameter(s) for function:
+  Victim’s weight (in pounds)
+  Return:
+  Number of Bee stings
+  Result to print to the console:
+  “It takes X bee stings to kill this animal.
+
+  */
+
+
+ function killAnimal(){
+
+  var victimsWeight = prompt("What is the Victim's weight");
+  var beeStings = 8.666666667;
+
+  var stingsToKill = beeStings*victimsWeight;
+
+  return stingsToKill
 
  }
 
-
+ var result2 = killAnimal(victimsWeight);

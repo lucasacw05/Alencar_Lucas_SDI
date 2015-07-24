@@ -24,21 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="day8_returns.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day8/js/day8_returns.js">
+      <file leaf-file-name="day8_functions_worksheet.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day8/Functions Worksheet/js/day8_functions_worksheet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75407606">
-              <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.20380434">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day8_returns.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day8/day8_returns.html">
+      <file leaf-file-name="day8_functions_worksheet.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day8/Functions Worksheet/day8_functions_worksheet.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-3.125">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -61,10 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day3/js/day3_casting.html" />
-        <option value="$PROJECT_DIR$/Alencar_Lucas_Expressions_Assignment/js/day_expressionassignment.html.js" />
-        <option value="$PROJECT_DIR$/Alencar_Lucas_Expressions_Assignment/day3_expressionsassignment.html" />
-        <option value="$PROJECT_DIR$/Day3/js/day3_prompts.js" />
         <option value="$PROJECT_DIR$/Alencar_Lucas_Expressions_Assignment/js/day3_expressionsassignment.js" />
         <option value="$PROJECT_DIR$/Day2/js/script.js" />
         <option value="$PROJECT_DIR$/Day3/js/day3_casting.js" />
@@ -112,6 +108,10 @@
         <option value="$PROJECT_DIR$/Day8/js/day8_argument_and_parameters.js" />
         <option value="$PROJECT_DIR$/Day8/day8_returns.html" />
         <option value="$PROJECT_DIR$/Day8/js/day8_returns.js" />
+        <option value="$PROJECT_DIR$/Day8/day8_functions_worksheet.html" />
+        <option value="$PROJECT_DIR$/Day8/js/day8_functions_worksheet.js" />
+        <option value="$PROJECT_DIR$/Day8/Functions Worksheet/day8_functions_worksheet.html" />
+        <option value="$PROJECT_DIR$/Day8/Functions Worksheet/js/day8_functions_worksheet.js" />
       </list>
     </option>
   </component>
@@ -213,7 +213,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Day7" />
+              <option name="myItemId" value="Day8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Functions Worksheet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -227,25 +231,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Day7" />
+              <option name="myItemId" value="Day8" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ArrayLoop_Worksheet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Alencar_Lucas_SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Alencar_Lucas_SDI" />
+              <option name="myItemId" value="Functions Worksheet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Day 6" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -297,11 +291,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Day8/Functions Worksheet" />
+      <recent name="$PROJECT_DIR$/Day8/Functions Worksheet/js" />
       <recent name="$PROJECT_DIR$/Day8" />
       <recent name="$PROJECT_DIR$/Alencar_Lucas_Loops_Worksheet" />
       <recent name="$PROJECT_DIR$/Alencar_Lucas_Conditionals_Assignment/js" />
-      <recent name="$PROJECT_DIR$/Day 4 Lab/js" />
-      <recent name="$PROJECT_DIR$/Alencar_Lucas_Expressions_Assignment/js" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.iexpressions.js">
@@ -407,20 +401,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day3/js/day3_casting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26630434">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day3/js/day3_arrays.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.2839674">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day3/Day3 Prompts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.105337076">
@@ -758,18 +738,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day8/js/day8_returns.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75407606">
+          <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Day8/day8_returns.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
+        <state vertical-scroll-proportion="0.105337076">
           <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day8/js/day8_returns.js">
+    <entry file="file://$PROJECT_DIR$/Day8/Functions Worksheet/day8_functions_worksheet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75407606">
-          <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day8/Functions Worksheet/js/day8_functions_worksheet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20380434">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
         </state>
       </provider>

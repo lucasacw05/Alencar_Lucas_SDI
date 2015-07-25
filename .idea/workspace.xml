@@ -4,6 +4,7 @@
     <list default="true" id="2355a16b-6c20-4a11-b41d-e7e80cd9b1cf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 6/js/Day6_Math.js" afterPath="$PROJECT_DIR$/Day 6/js/Day6_Math.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 6/js/Day6_WhileLoops.js" afterPath="$PROJECT_DIR$/Day 6/js/Day6_WhileLoops.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day9/js/day9_procedures.js" afterPath="$PROJECT_DIR$/Day9/js/day9_procedures.js" />
     </list>
     <ignored path="Alencar_Lucas_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="day9_procedures.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day9/js/day9_procedures.js">
+      <file leaf-file-name="day9_anonymous_functions.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day9/js/day9_anonymous_functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69816643">
-              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.6317935">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day9_procedures.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day9/day9_procedures.html">
+      <file leaf-file-name="anonymous_function.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day9/anonymous_function.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-3.125">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -61,9 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day4/js/day4_conditionals.js" />
-        <option value="$PROJECT_DIR$/Day4/day4_logical.html" />
-        <option value="$PROJECT_DIR$/Day4/js/day4_logical.js" />
         <option value="$PROJECT_DIR$/Day4/day4_ternary.html" />
         <option value="$PROJECT_DIR$/Day4/js/day4_ternary.js" />
         <option value="$PROJECT_DIR$/Day 4 Lab/conditionals_worksheet.js" />
@@ -111,7 +109,10 @@
         <option value="$PROJECT_DIR$/Day9/day9_random.html" />
         <option value="$PROJECT_DIR$/Day9/js/day9_random.js" />
         <option value="$PROJECT_DIR$/Day9/day9_procedures.html" />
+        <option value="$PROJECT_DIR$/Day9/js/anonymous_functions.js" />
         <option value="$PROJECT_DIR$/Day9/js/day9_procedures.js" />
+        <option value="$PROJECT_DIR$/Day9/anonymous_function.html" />
+        <option value="$PROJECT_DIR$/Day9/js/day9_anonymous_functions.js" />
       </list>
     </option>
   </component>
@@ -219,11 +220,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Day9/js" />
       <recent name="$PROJECT_DIR$/Day8/Functions Worksheet" />
       <recent name="$PROJECT_DIR$/Day8/Functions Worksheet/js" />
       <recent name="$PROJECT_DIR$/Day8" />
       <recent name="$PROJECT_DIR$/Alencar_Lucas_Loops_Worksheet" />
-      <recent name="$PROJECT_DIR$/Alencar_Lucas_Conditionals_Assignment/js" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.iexpressions.js">
@@ -329,20 +330,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day4/day4_logical.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day 4 Lab/conditionals_worksheet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.105337076">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day4/js/day4_logical.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7554348">
@@ -688,10 +675,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day9/anonymous_function.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Day9/js/day9_procedures.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69816643">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.10578279">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day9/js/day9_anonymous_functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6317935">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
           <folding />
         </state>
       </provider>

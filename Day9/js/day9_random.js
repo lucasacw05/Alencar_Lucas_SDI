@@ -6,7 +6,7 @@ Section 00
 Randon Generator
  */
 
-alert("Test It");
+//alert("Test It");
 
  //Create a function that will take in a user prompted max and min value and return a random number between them.
 
@@ -29,12 +29,12 @@ alert("Test It");
 
  //Variable for max
 
- var max=prompt("What is the max value?");
+ var max;
 
  //Validate the prompt
 
 
- max = prompt("We are going to find a random number between two values.\nWhat is the minimum value?");
+ max = prompt("We are going to find a random number between two values.\nWhat is the maximum value?");
  //Validate that prompt.
  while((isNaN(max) || max==="") ||max<=min){
 
@@ -52,3 +52,28 @@ alert("Test It");
 
 //Number cast max
  max = Number(max);
+
+ //Test to check values of max and min.
+ console.log("The min value is "+min+".\nThe max value is "+max+".");
+
+
+ //Function call the randomizer
+ var results1 = randomizer(min, max);
+ console.log("Your random number is "+results1+".");
+
+
+ //15 random numbers to print to the console log.
+ for(var i=0; i<15; i++){
+  var tempNum=randomizer(min,max);
+  console.log(tempNum)
+
+ }
+
+ //Create the random function
+ function randomizer(mn, mx){
+  //Generate our random number
+  var randomNum = Math.round(Math.random()*(mx-mn)+mn);
+  //console.log(randomNum);
+  //return the random number to the main code
+  return randomNum;
+ }

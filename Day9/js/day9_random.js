@@ -62,12 +62,21 @@ Randon Generator
  console.log("Your random number is "+results1+".");
 
 
- //15 random numbers to print to the console log.
+ //15 random numbers between 10 and 20 to print to the console log.
+ //What the sum of those numbers are?
+ var total=0;
+
+ //Create a blank array to hold the values
+ var randomArray = [];
  for(var i=0; i<15; i++){
   var tempNum=randomizer(min,max);
-  console.log(tempNum)
-
+  randomArray[i]=tempNum
+  console.log(tempNum);
+  total +=tempNum;
  }
+ //Console.log the total
+ console.log(randomArray);
+ console.log("The total of 15 random numbers is "+total+".");
 
  //Create the random function
  function randomizer(mn, mx){

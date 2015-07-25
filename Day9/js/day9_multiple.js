@@ -37,17 +37,36 @@ Multiple
   return area;
  }
 
+ //Ask the user if they would like to calculate the area of a triangle.
+ var userPrompt=prompt("Would you like to calculate the area of a triangle?\nPlease answer yes or no");
+ //validate
 
- //Create a function to calculate the area of triangle
- var  triArea = function(b, h){
-  var area = .5*b*h;
-  return area;
- };
+ while(userPrompt.toLowerCase() !="yes" && userPrompt.toLowerCase() !="no"){
+  userPrompt=prompt("Please only answer yes or no. Would you like to calculate the area of a triangle?");
+ }
+
+ //Conditional to see if we should run the anon function.
+ if(userPrompt.toLowerCase()==="yes"){
+
+  //Create a function to calculate the area of triangle
+  var  triArea = function(b, h){
+   var area = .5*b*h;
+   return area;
+  };
 
 
- //Function call to triangle area
- var triAreaTotal = triArea(base, height);
- console.log(triAreaTotal);
+ }
+
+ if (userPrompt.toLowerCase()==="yes"){
+  //Function call to triangle area
+  var triAreaTotal = triArea(base, height);
+  console.log(triAreaTotal);
+ }
+
+
+
+
+
 
  //Create a procedure that will console.log the rectangle perimeter and area
  function printOut(p, a){

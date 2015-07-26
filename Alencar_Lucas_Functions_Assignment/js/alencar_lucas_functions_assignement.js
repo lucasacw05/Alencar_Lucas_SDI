@@ -73,7 +73,31 @@ alert("Before we start, if we were going to do everything as it really is in rea
 
  alert("There is definitely more than were it came from!");
 
- alert("Let's use your imagination again to calculate the total surface of those awesome cables! But let's pickup a brand new one!");
+ alert("After so hard calculations let's pretend your are going to eat an ice cream!\nThe ice cream you want to eat comes not inside a cone, but a pyramid! Let's calculate its volume! What a fun thing to do!");
+
+
+
+
+ var width2=prompt("Let's start with the width of the pyramid. Type only numbers.");
+
+
+
+ var length2=prompt("Now it's time for the length! Type here again. You know what you need to do.");
+
+
+
+
+ var height2;=prompt("By last, type the height of your pyramid");
+
+
+ function calcPyramid(w, l, h){
+  var base = w*l;
+  var volume = base*(h/3);
+  console.log(volume);
+  return volume;
+ }
+
+ var resultVolume2 =calcPyramid(width2, length2, height2);
 
 
 

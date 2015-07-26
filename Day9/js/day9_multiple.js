@@ -65,9 +65,6 @@ Multiple
 
 
 
-
-
-
  //Create a procedure that will console.log the rectangle perimeter and area
  function printOut(p, a){
   console.log("The perimeter is "+p);
@@ -76,3 +73,4 @@ Multiple
 
  //Function call for out print outs
  printOut(resultsPeri, resultsArea);
+

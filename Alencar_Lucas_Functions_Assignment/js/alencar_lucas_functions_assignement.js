@@ -12,7 +12,7 @@ alert("This is Lucas Alencar's Functions Assignment. Enjoy it.");
  var length;
  var height;
 
-/*
+
 var firstQuestion=prompt("Did you know that the internet that you use everyday is basically a lot of giant cables overseas through all the world?");
  while(firstQuestion === "" || !(isNaN(firstQuestion))){
   firstQuestion=prompt("Please, answer \"yes\" or \"no\".")
@@ -31,7 +31,6 @@ var firstQuestion=prompt("Did you know that the internet that you use everyday i
  } else{
   alert("It looks like you will have to do it in any way! Hahaha");
  }
- */
 
 
 alert("Before we start, if we were going to do everything as it really is in real life things could start to be boring.");
@@ -58,7 +57,7 @@ alert("Before we start, if we were going to do everything as it really is in rea
  } if(!(isNaN(length))){
   alert("Soon you will see the magic number!");
  }
- 
+
 
  var totalVolume = function (r, h, l) {
 
@@ -71,6 +70,11 @@ alert("Before we start, if we were going to do everything as it really is in rea
  var resultVolume = totalVolume(radius, height, length);
 
  alert("The total volume of your own wonderful version of the Amazing Internet Cable is "+Math.round(resultVolume)+" cubic meters!!!");
+
+ alert("There is definitely more than were it came from!");
+
+ alert("Let's use your imagination again to calculate the total surface of those awesome cables! But let's pickup a brand new one!");
+
 
 
  //DON'T FORGET TO PUT THE LAST COMMENTS!!!

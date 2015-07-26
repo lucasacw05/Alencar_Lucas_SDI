@@ -7,6 +7,7 @@ Functions Assignment.
  */
 
 alert("This is Lucas Alencar's Functions Assignment. Enjoy it.");
+ console.log("This is Lucas Alencar's Functions Assignment. Enjoy it.");
 
  var radius;
  var length;
@@ -14,6 +15,7 @@ alert("This is Lucas Alencar's Functions Assignment. Enjoy it.");
 
 
 var firstQuestion=prompt("Did you know that the internet that you use everyday is basically a lot of giant cables overseas through all the world?");
+
  while(firstQuestion === "" || !(isNaN(firstQuestion))){
   firstQuestion=prompt("Please, answer \"yes\" or \"no\".")
  } if(firstQuestion.toLowerCase()==="yes"){
@@ -21,6 +23,8 @@ var firstQuestion=prompt("Did you know that the internet that you use everyday i
  } else{
   alert("Yeah! The internet is connected all over the world by unknown heroes (huge cables) that are all over the place!");
  }
+ console.log("Did you know that the internet that you use everyday is basically a lot of giant cables overseas through all the world?");
+ console.log(firstQuestion);
 
  var secondQuestion=prompt("What about calculating the volume of those giant cables for any length you want to? Let's do it?!!");
 
@@ -28,9 +32,11 @@ var firstQuestion=prompt("Did you know that the internet that you use everyday i
   secondQuestion=prompt("Please, type only \"yes\" or \"no\" and don't leave it blank.")
  } if(secondQuestion.toLowerCase()==="yes") {
   alert("Great! we will do this because you want to and because this idea is awesome!!");
-
+  console.log("What about calculating the volume of those giant cables for any length you want to? Let's do it?!!");
+  console.log(secondQuestion);
 
   alert("Before we start, if we were going to do everything as it really is in real life, things could start to be boring.");
+  console.log("Before we start, if we were going to do everything as it really is in real life, things could start to be boring.");
 
   radius = prompt("By first, choose the size of the radius in meters.");
   while (radius === "" || isNaN(radius)) {
@@ -39,6 +45,8 @@ var firstQuestion=prompt("Did you know that the internet that you use everyday i
   if (!(isNaN(radius))) {
    alert("Awesome choice!!");
   }
+  console.log("By first, choose the size of the radius in meters.");
+  console.log(radius);
 
 
   length = prompt("By last, choose its length.");
@@ -48,6 +56,8 @@ var firstQuestion=prompt("Did you know that the internet that you use everyday i
   if (!(isNaN(length))) {
    alert("Soon you will see the magic number!");
   }
+  console.log("By last, choose its length.");
+  console.log(length);
 
 
   var totalVolume = function (r, l) {
@@ -61,8 +71,10 @@ var firstQuestion=prompt("Did you know that the internet that you use everyday i
 
 
   var resultVolume = totalVolume(radius, length);
+  console.log();
 
   alert("The total volume of your own wonderful version of the Amazing Internet Cable is " + Math.round(resultVolume) + " cubic meters!!!");
+  console.log("The total volume of your own wonderful version of the Amazing Internet Cable is " + Math.round(resultVolume) + " cubic meters!!!");
 
   alert("There is definitely more than were it came from!");
 
@@ -76,6 +88,8 @@ var firstQuestion=prompt("Did you know that the internet that you use everyday i
   if (!(isNaN(width2))) {
    alert("Great!!!");
   }
+  console.log("Let's start with the width of the pyramid. Type only numbers.");
+  console.log(width2);
 
 
   var length2 = prompt("Now it's time for the length! Type here again. You know what you need to do.");
@@ -85,15 +99,18 @@ var firstQuestion=prompt("Did you know that the internet that you use everyday i
   if (!(isNaN(length2))) {
    alert("You love Ice Cream, don't you?");
   }
+  console.log("Now it's time for the length! Type here again. You know what you need to do.");
+  console.log(length2);
 
-
-  var height2 = prompt("By last, type the height of your pyramid");
+  var height2 = prompt("By last, type the height of your pyramid.");
   while (height2 === "" || isNaN(height2)) {
    height2 = prompt("Please, type only type numbers and don't leave it blank.")
   }
   if (!(isNaN(height2))) {
    alert("YEAAAHHH!");
   }
+  console.log("By last, type the height of your pyramid.");
+  console.log(height2);
 
 
   function calcPyramid(w, l, h) {
@@ -106,11 +123,12 @@ var firstQuestion=prompt("Did you know that the internet that you use everyday i
   var resultVolume2 = calcPyramid(width2, length2, height2);
 
   alert("The volume of your Ice Cream \"cone\" that is a Pyramid is " + Math.round(resultVolume2) + " cubic in the unit you wanted to be. Remember I only asked you the numbers. Have fun with Code and with Life! Thanks!");
-
+  console.log("The volume of your Ice Cream \"cone\" that is a Pyramid is " + Math.round(resultVolume2) + " cubic in the unit you wanted to be. Remember I only asked you the numbers. Have fun with Code and with Life! Thanks!");
  }
 
  else{
   alert("You are boring, and it's worse than I thought!");
+  console.log("You are boring, and it's worse than I thought!");
  }
 
  //DON'T FORGET TO PUT THE LAST COMMENTS!!!

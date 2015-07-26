@@ -37,8 +37,28 @@ var firstQuestion=prompt("Did you know that the internet that you use everyday i
 alert("Before we start, if we were going to do everything as it really is in real life things could start to be boring.");
 
  radius=prompt("By first, choose the size of the radius in meters.");
+ while(radius === "" || isNaN(radius)){
+  radius=prompt("Please, type only type numbers and don't leave it blank.")
+ } if(!(isNaN(radius))){
+  alert("Awesome choice!!");
+ }
+
+
  height=prompt("By second, choose the height of the internet cable.");
+ while(height === "" || isNaN(height)){
+  height=prompt("Please, type only type numbers and don't leave it blank.")
+ } if(!(isNaN(height))){
+  alert("We're getting there!");
+ }
+
+
  length=prompt("By last, choose its length.");
+ while(length === "" || isNaN(length)){
+  length=prompt("Please, type only type numbers and don't leave it blank.")
+ } if(!(isNaN(length))){
+  alert("Soon you will see the magic number!");
+ }
+ 
 
  var totalVolume = function (r, h, l) {
 
@@ -49,6 +69,8 @@ alert("Before we start, if we were going to do everything as it really is in rea
  };
 
  var resultVolume = totalVolume(radius, height, length);
+
+ alert("The total volume of your own wonderful version of the Amazing Internet Cable is "+Math.round(resultVolume)+" cubic meters!!!");
 
 
  //DON'T FORGET TO PUT THE LAST COMMENTS!!!

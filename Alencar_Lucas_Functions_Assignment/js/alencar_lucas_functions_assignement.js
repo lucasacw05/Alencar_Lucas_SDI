@@ -8,7 +8,11 @@ Functions Assignment.
 
 alert("This is Lucas Alencar's Functions Assignment. Enjoy it.");
 
+ var radius;
+ var length;
+ var height;
 
+/*
 var firstQuestion=prompt("Did you know that the internet that you use everyday is basically a lot of giant cables overseas through all the world?");
  while(firstQuestion === "" || !(isNaN(firstQuestion))){
   firstQuestion=prompt("Please, answer \"yes\" or \"no\".")
@@ -27,7 +31,24 @@ var firstQuestion=prompt("Did you know that the internet that you use everyday i
  } else{
   alert("It looks like you will have to do it in any way! Hahaha");
  }
+ */
 
+
+alert("Before we start, if we were going to do everything as it really is in real life things could start to be boring.");
+
+ radius=prompt("By first, choose the size of the radius in meters.");
+ height=prompt("By second, choose the height of the internet cable.");
+ length=prompt("By last, choose its length.");
+
+ var totalVolume = function (r, h, l) {
+
+  var areaCircumference = r*r*Math.PI;
+  var volume = areaCircumference*l;
+  console.log(volume);
+  return volume;
+ };
+
+ var resultVolume = totalVolume(radius, height, length);
 
 
  //DON'T FORGET TO PUT THE LAST COMMENTS!!!

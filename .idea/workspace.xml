@@ -38,8 +38,8 @@
       <file leaf-file-name="review.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day10/js/review.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9366197">
-              <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.5387994">
+              <caret line="71" column="42" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -568,6 +568,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.4444447">
           <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -610,6 +611,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -624,6 +626,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -631,6 +634,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -717,8 +721,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day10/js/review.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9366197">
-          <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.5387994">
+          <caret line="71" column="42" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
           <folding />
         </state>
       </provider>

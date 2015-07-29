@@ -25,25 +25,10 @@ Steak
 
  var steakTemp;
 
- steakTemp = prompt("What is the temperature in F of your steak.");
+ do{
+  steakTemp = prompt("What is the temperature in F of your steak. Please, make sure to insert only numbers.");
+ } while(isNaN(steakTemp) || steakTemp === "");
 
- //Validate to test for blank input
- if(steakTemp===""){
-  //This code will run if the user leave the prompt blank
-  //Reprompt the user
-  steakTemp=prompt("Please, do not leave blank\nWhat is the temperature of your steak?");
- }
-
-
-
- //Let's combine both validation questions.
-if(isNaN(steakTemp) || steakTemp === ""){
- //reprompt the user
-} if (isNaN(steakTemp)){
-  steakTemp=prompt("Please, only use numbers.\n Enter steak temp in F:");
- } else {
-  steakTemp=prompt("Please do not leave blank.\nEnter steak temp in F:");
- }
 
 
  //Validate the user prompt

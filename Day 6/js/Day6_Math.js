@@ -11,7 +11,10 @@ Math Class
 //Does not permanently change the variable value
 
 //To change the variable, assign it back to the variable
-var num1 = 9.744;
+var num1;
+do{
+    num1=prompt("Choose a number to be rounded to the closest integer.");
+} while(isNaN(num1) || num1 === "");
 num1 = Math.round(num1);
 
 console.log(num1);
@@ -19,12 +22,16 @@ console.log(Math.round(num1));
 console.log(num1);
 
 //floor() - rounds down to the nearest integer
-var num2 = 6.8;
+var num2;
+do{ num2=prompt("Choose a number to be rounded to the past integer.");
+} while(isNaN(num2) || num2 === "");
 console.log(num2);
 console.log(Math.floor(num2));
 
 //ceil() - rounds up to the nearest integer
-var num3 = 4.2;
+var num3;
+do{ num3=prompt("Choose a number to be rounded to the next integer.");
+} while(isNaN(num3) || num3 === "");
 console.log(num3);
 console.log(Math.ceil(num3));
 

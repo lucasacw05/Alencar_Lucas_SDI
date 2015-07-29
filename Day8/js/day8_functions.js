@@ -40,8 +40,15 @@ printMore();
  //Create a function that calculates the area of a rectangle
  function calcArea(){
   //Create variables for width, heigth and area.
-  var width = 20;
-  var height = 30;
+  var width;
+  do{
+   width=prompt("Choose a width to calculate the area of the rectangle");
+  }while(isNaN(width) || width === "");
+  var height;
+  do{
+   height=prompt("Choose a width to calculate the area of the rectangle");
+  }while(isNaN(height) || height === "");
+
   var area = width*height;
 
   //console log the answer

@@ -17,7 +17,7 @@ Array Loop Worksheet
  //This array represents the names of the people who is part of the band.
  var whoAreThey = [];
 
- //This variable represents the question that if asnwered "yes", allows the person to do the main goal of the code.
+ //This variable represents the question that if answered "yes", allows the person to do the main goal of the code.
  var questionTentation;
 
  //This variable represents the first people that will listen the music after the band.

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2355a16b-6c20-4a11-b41d-e7e80cd9b1cf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day3/js/day3_arrays.js" afterPath="$PROJECT_DIR$/Day3/js/day3_arrays.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day3/js/day3_casting.js" afterPath="$PROJECT_DIR$/Day3/js/day3_casting.js" />
     </list>
     <ignored path="Alencar_Lucas_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="day3_arrays.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day3/js/day3_arrays.js">
+      <file leaf-file-name="iexpressions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day2 Lab/js/iexpressions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28994846">
-              <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -35,32 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day3_arrays.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day3/day3_arrays.html">
+      <file leaf-file-name="day3_casting.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day3/js/day3_casting.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6809079">
+              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iexpressions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day2 Lab/js/iexpressions.js">
+      <file leaf-file-name="day3_casting.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day3/day3_casting.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="111" column="56" selection-start-line="110" selection-start-column="0" selection-end-line="111" selection-end-column="56" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="day3_casting.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day3/js/day3_casting.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -96,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Alencar_Lucas_Conditionals_Assignment/js/alencar_lucas_conditionals.js" />
         <option value="$PROJECT_DIR$/CodeCademy/JavaScript/javascript_course.js.html" />
         <option value="$PROJECT_DIR$/CodeCademy/JavaScript/js/javascript_course.js" />
         <option value="$PROJECT_DIR$/Day 6/js/Day6_Math.js" />
@@ -147,6 +134,7 @@
         <option value="$PROJECT_DIR$/Day2/js/script.js" />
         <option value="$PROJECT_DIR$/Day2 Lab/js/iexpressions.js" />
         <option value="$PROJECT_DIR$/Day3/js/day3_arrays.js" />
+        <option value="$PROJECT_DIR$/Day3/js/day3_casting.js" />
       </list>
     </option>
   </component>
@@ -410,13 +398,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day 6/day6test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.105337076">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day 6/js/Day6_Math.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.91847825">
@@ -739,14 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day3/js/day3_casting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day3/js/day3_prompts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -757,10 +730,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day2 Lab/js/iexpressions.js">
+    <entry file="file://$PROJECT_DIR$/Day3/js/day3_arrays.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="111" column="56" selection-start-line="110" selection-start-column="0" selection-end-line="111" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.44458762">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -775,13 +748,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day3/js/day3_arrays.js">
+    <entry file="file://$PROJECT_DIR$/Day3/day3_casting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28994846">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day2 Lab/js/iexpressions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day3/js/day3_casting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6809079">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

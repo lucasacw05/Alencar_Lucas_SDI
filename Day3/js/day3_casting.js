@@ -9,23 +9,37 @@ Casting Variable
 //alert("Test It");
 //Casting variables means treating on variable like another
 
-var stringVar = "6";
-var results = 7 + stringVar;
+var stringVar;
+
+ do{stringVar=prompt("Type any number here!");
+ } while(isNaN(stringVar) || stringVar === "");
+
+ var results = 7 + stringVar;
 console.log(results);
+
 
 //Number() -  Treats what is inside of () like a number, if possible!
  var castingResults = 7 + Number(stringVar);
- console.log(castongResults);
+ console.log(castingResults);
+
 
  //Cast Numbers as Strings
 //String()
- var areaCode = 407;
- var prefix = 555;
- var lineNumber = 1234;
+
+
+
+ var areaCode=prompt("Put here the area code of your number.");
+
+
+ var prefix=prompt("Here the prefix of your number.");
+
+
+ var lineNumber=prompt("By last, it's line number.");
 
  var phoneNumber = String(areaCode)+String(prefix)+String(lineNumber);
  var phoneNumber2;
  console.log(phoneNumber);
+ confirm("This is your phone number "+phoneNumber);
 
  //ALL PROMPTS() RETURNS TEXT STRINGS!!!
  var videoGamesCurrent = prompt("How many video games do you currently own?");

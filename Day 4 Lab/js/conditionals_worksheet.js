@@ -24,16 +24,25 @@ Conditionals Worksheet
 */
 
 //This is the gas efficiency of miles the car is able to do per gallon of gas
- var gasEfficiency = 15;
+ var gasEfficiency;
+ gasEfficiency=prompt("Type here the gas efficiency of your vehicle.");
+
 
  //This is the gauge reading of the gas tank in % at the moment the problem appears.
- var gaugeReadingGasTank = 75 / 100;
+ var gaugeReadingGasTank;
+ gaugeReadingGasTank=prompt("Type here the gauge reading gas tank in percentage of your vehicle.");
+ gaugeReadingGasTank= gaugeReadingGasTank/100;
+
 
  //This is the tank capacity of the car in gallons.
- var tankCapacity = 20;
+ var tankCapacity;
+ tankCapacity=prompt("Type here the tank capacity of your vehicle.");
+
 
  //This is the distance in miles to the next station.
  var distanceNextGasStation = 200;
+ alert("This is the distance "+distanceNextGasStation+" to the gas station");
+
 
  //This is the distance the car will be able to do without getting more gas.
  var distanceNotGettingGas = gasEfficiency * (gaugeReadingGasTank * tankCapacity);
@@ -43,10 +52,12 @@ Conditionals Worksheet
 
      if(distanceNotGettingGas<distanceNextGasStation){
   console.log("You only have "+gallonsInsideTank+" gallons of gas in your tank, better get gas now while you can!");
+      alert("You only have "+gallonsInsideTank+" gallons of gas in your tank, better get gas now while you can!");
       }
 
      else {
   console.log("Yes, you can make it without stopping for gas!");
+      alert("Yes, you can make it without stopping for gas!");
  }
 
 

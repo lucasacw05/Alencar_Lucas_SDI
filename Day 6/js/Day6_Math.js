@@ -12,7 +12,7 @@ Math Class
 
 //To change the variable, assign it back to the variable
 var num1 = 9.744;
-num1 = Math.round(num1)
+num1 = Math.round(num1);
 
 console.log(num1);
 console.log(Math.round(num1));
@@ -49,7 +49,7 @@ var num7 = Math.round(Math.random()*(1000-100) + 100);
 console.log(num7);
 
 //.toFixed(x) - Rounds to a decimal place - x decimal
-var num8 = Math.random()
+var num8 = Math.random();
 console.log (num8);
 console.log (num8.toFixed(2));
 

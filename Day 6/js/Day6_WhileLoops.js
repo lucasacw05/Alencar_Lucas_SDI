@@ -28,10 +28,10 @@ var i = 20;
 
 do{
  //This code will always run at least once
- console.log("The value of is is "+i);
+ console.log("The value of \"i\" is "+i);
  //Increment of change
  i++;
 
 }while(i < 10);
 
-console.log(i)
+console.log(i);

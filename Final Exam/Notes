@@ -1,0 +1,43 @@
+Practical Exam.
+-Create File
+"Assignment"
+Figure out the area of a circle
+- Prompt
+- Function
+- Return
+- Validate the prompts
+
+
+
+Datatypes of Variables
+
+Examples of those.
+
+
+Ternaries and how they work.
+
+
+-Write a function into it.
+
+
+function addUp(a,b){
+var total = a+b;
+return total;
+}
+
+var results = addUp(x,y);
+
+
+"Length of array"
+"concatinate together"
+
+
+var functionName = function(){
+
+};
+
+
+modulo %
+
+
+else if questions (&& and ||) - witch one will run.

@@ -34,13 +34,14 @@ whatever = 45;
 // create a storage container = value ;
 
 //Declare and define a variable
-var a =2;
+var a;
+a=prompt("Choose a number for the variable \"a\" ");
 
 //Send variable value o the console so we can see it
 console.log(a);
 
 //Change the value of a variable
-a=6;
+a+=6;
 console.log(a);
 
 //Add 3 to the current value of a

@@ -34,10 +34,12 @@ var numBeers = prompt("How many beers are on your wall?");
 
   if(i===2) {
   console.log(i+" bottles of beer on the wall. "+i+" bottles of beer. You take one down and pass it around. "+(i-1)+" bottle of beer on the wall");
+   alert(i+" bottles of beer on the wall. "+i+" bottles of beer. You take one down and pass it around. "+(i-1)+" bottle of beer on the wall");
  } else if(i===1){
-   console.log(i+" bottle of beer on the wall. "+i+" bottle of beer. You take one down and pass it around. No more bottles of beer on the wall\nThe ende.");
-
+   console.log(i+" bottle of beer on the wall. "+i+" bottle of beer. You take one down and pass it around. No more bottles of beer on the wall\nThe end.");
+alert(i+" bottle of beer on the wall. "+i+" bottle of beer. You take one down and pass it around. No more bottles of beer on the wall\nThe end.");
   } else{
    console.log(i+" bottles of beer on the wall. "+i+" bottles of beer. You take one down and pass it around. "+(i-1)+" bottles of beer on the wall");
+   alert(i+" bottles of beer on the wall. "+i+" bottles of beer. You take one down and pass it around. "+(i-1)+" bottles of beer on the wall");
   }
  }

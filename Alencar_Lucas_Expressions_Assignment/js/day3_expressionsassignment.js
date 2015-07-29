@@ -19,12 +19,21 @@ console.log("Let\'s calculate how much time I could spend going to school");
 //This represents the days of the week that the student go to the classes.
 //I added parseInt to turn all the prompts below on real numbers so that they will be able to be added. They are no longer text anymore.
 var timeOnTuesdays = parseInt(prompt("How long did you spend in minutes on your bike to go to classes last Tuesday?"));
+do{
+ timeOnTuesdays = parseInt(prompt("How long did you spend in minutes on your bike to go to classes last Tuesday?"));
+}while(isNaN(timeOnTuesdays) || timeOnTuesdays === "");
 console.log("You spent "+timeOnTuesdays+" minutes going to classes on last Tuesday");
 
 var timeOnThursdays = parseInt(prompt("How long did you spend in minutes on your bike to go to classes last thursday?"));
+do{
+ timeOnThursdays = parseInt(prompt("How long did you spend in minutes on your bike to go to classes last Tuesday?"));
+}while(isNaN(timeOnThursdays) || timeOnThursdays === "");
 console.log("You spent "+timeOnThursdays+" minutes going to classes on last Thursday");
 
 var timeOnSaturdays = parseInt(prompt("How long did you spend in minutes on your bike to go to classes last Saturday?"));
+do{
+ timeOnSaturdays = parseInt(prompt("How long did you spend in minutes on your bike to go to classes last Tuesday?"));
+}while(isNaN(timeOnSaturdays) || timeOnSaturdays === "");
 console.log("You spent "+timeOnSaturdays+" minutes going to classes on last Saturday");
 
 //This is the array to represent those days.

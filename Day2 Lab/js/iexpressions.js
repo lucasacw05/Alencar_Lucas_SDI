@@ -101,15 +101,29 @@ console.log("Sparky got "+sparkySlices+" slices of pizza.");
 
 
 
-var groceriesweek1 = 10;
+var groceriesweek1;
+groceriesweek1=prompt("How much did you spend on first week?");
+do{groceriesweek1=prompt("How much did you spend on fifth week?");
+} while(isNaN(groceriesweek1) || groceriesweek1 === "");
 
-var groceriesWeek2 = 14;
+var groceriesWeek2;
+groceriesWeek2=prompt("How much did you spend on second week?");
+do{groceriesWeek2=prompt("How much did you spend on fifth week?");
+} while(isNaN(groceriesWeek2) || groceriesWeek2 === "");
 
-var groceriesWeek3 = 17;
+var groceriesWeek3;
+groceriesWeek3=prompt("How much did you spend on third week?");
+do{groceriesWeek3=prompt("How much did you spend on fifth week?");
+} while(isNaN(groceriesWeek3) || groceriesWeek3 === "");
 
-var groceriesWeek4 = 12;
+var groceriesWeek4;
+groceriesWeek4=prompt("How much did you spend on fourth week?");
+do{groceriesWeek4=prompt("How much did you spend on fifth week?");
+} while(isNaN(groceriesWeek4) || groceriesWeek4 === "");
 
-var groceriesWeek5 = 14;
+var groceriesWeek5;
+do{groceriesWeek5=prompt("How much did you spend on fifth week?");
+ } while(isNaN(groceriesWeek5) || groceriesWeek5 === "");
 
 var groceries5week = groceriesweek1 + groceriesWeek2 + groceriesWeek3 + groceriesWeek4 + groceriesWeek5;
 

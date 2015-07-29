@@ -9,12 +9,20 @@ Returns
 //alert("Test It");
 
  //Create a function area of rectangle
+
  function calcArea(w, h){
+  do{
+   h=prompt("Choose a height to calculate the area of the rectangle");
+  }while(isNaN(h) || h === "");
+  do{
+   w=prompt("Choose a width to calculate the area of the rectangle");
+  }while(isNaN(w) || w === "");
   //Calculate the area
   var area = w*h;
 
   //Console.log the results
   console.log("The area is "+area);
+  alert("The are is "+area);
 
   //In order to use results in main code use return and then "whatever you want to return";
   return area;

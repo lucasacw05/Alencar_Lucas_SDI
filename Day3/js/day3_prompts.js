@@ -9,8 +9,21 @@ Prompts
 
 //Ask the user for their input
 var userInput = prompt("Enter your year of birth");
+if(isNaN(userInput) || userInput === ""){
+    var userInput = prompt("Enter your year of birth again");
+} else{
+    alert("Great!");
+}
+
 console.log(userInput);
 
+var bigQuestion;
+bigQuestion=prompt("Did you already had birthday this year?");
+if(bigQuestion.toLowerCase()==="yes"){
+    var age = (2015-userInput);
+    console.log("You are "+age+" years old.");
+    alert("You are "+age+" years old.");
+} else
 var age = (2015-userInput)-1;
 console.log("You are "+age+" years old.");
 alert("You are "+age+"years old.");

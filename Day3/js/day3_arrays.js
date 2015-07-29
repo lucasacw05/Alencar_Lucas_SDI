@@ -11,7 +11,18 @@ Arrays
 //Create a basic array
 //Picking oranges
 
-var orangeBins = [30,500,10002];
+var orangeBins = [];
+
+
+do{orangeBins[0]=prompt("What is the value for the first item in the array?");
+} while(isNaN(orangeBins[0]) || orangeBins[0] === "");
+
+do{orangeBins[1]=prompt("What is the value for the second item in the array?");
+} while(isNaN(orangeBins[1]) || orangeBins[1] === "");
+
+do{orangeBins[2]=prompt("What is the value for the third item in the array?");
+} while(isNaN(orangeBins[2]) || orangeBins[2] === "");
+
 
 //How many oranges did we pick?
 

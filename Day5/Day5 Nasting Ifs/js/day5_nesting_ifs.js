@@ -14,8 +14,16 @@ Nesting Ifs
  //If it is NOT warm outside, let's go to the movies
 
  //Get temperature as a variable
- var temp=78;
- var waterTemp=74;
+ var temp;
+ temp=prompt("Choose a temperature in Fahrenheit.");
+ while(isNaN(temp) || temp === ""){
+  temp=prompt("PLease, only in numbers.");
+ }
+ var waterTemp;
+ waterTemp=prompt("Now choose the water temperature.");
+ while(isNaN(waterTemp) || waterTemp === ""){
+  waterTemp=prompt("PLease, only in numbers.");
+ }
 
  //test the temperature
  //Warm is 80 and above
@@ -27,12 +35,15 @@ Nesting Ifs
             //If the water is above 75 degrees, lets go swimming. If not, let's get a tan.
             if(waterTemp>75){
              console.log("Let's go swimming!");
+             alert("Let's go swimming");
             } else{
-             console.log("Let's get a tan!")
+             console.log("Let's get a tan!");
+             alert("Let's get a tan!");
             }
 
  } else{
   console.log("Let's go see a movie!");
+  alert("Let's go see a movie!");
 
   //Ask if kids are going with
   var kids=prompt("Are you bringing children?\nPlease type in yes or no.");
